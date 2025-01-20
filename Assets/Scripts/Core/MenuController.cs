@@ -42,7 +42,7 @@ public class MenuController : MonoBehaviour
    public void ExitButton()
    {
       Application.Quit();
-      //EditorApplication.isPlaying = false;
+      EditorApplication.isPlaying = false;
    }
 
    public void SetVolume(float volume)
